@@ -8,7 +8,10 @@ import datetime
 from django.shortcuts import render
 
 def index(request):
-    return render(request, 'clothes/index.html', {})
+    clothes(kind=request.POST['kind'], name=request.POST['name'], price=request.POST['price'],
+                                 size=request.POST['size']).save()
+    return render(request, 'clothes/index.html', {'welcome_text':'Hello world!'})
+
 
 
 
