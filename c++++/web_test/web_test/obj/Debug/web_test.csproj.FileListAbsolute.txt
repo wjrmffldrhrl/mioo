@@ -1,0 +1,6 @@
+D:\han\mioo\c++++\web_test\web_test\bin\Debug\web_test.exe.config
+D:\han\mioo\c++++\web_test\web_test\bin\Debug\web_test.exe
+D:\han\mioo\c++++\web_test\web_test\bin\Debug\web_test.pdb
+D:\han\mioo\c++++\web_test\web_test\obj\Debug\web_test.csprojAssemblyReference.cache
+D:\han\mioo\c++++\web_test\web_test\obj\Debug\web_test.exe
+D:\han\mioo\c++++\web_test\web_test\obj\Debug\web_test.pdb
