@@ -77,7 +77,7 @@ using System.Threading;
                     //Console.WriteLine("get data");
                     SW.WriteLine("Server: {0} [{1}]", GetMessage, DateTime.Now); // 메시지 보내기
 
-                    Console.WriteLine("Log: {0} [{1}]", GetMessage, DateTime.Now);
+                    Console.WriteLine("Log:<{0}>[{1}]", GetMessage, DateTime.Now);
                     SW.Flush();
                     //Console.WriteLine("send data");
 
