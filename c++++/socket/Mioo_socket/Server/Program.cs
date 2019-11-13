@@ -116,43 +116,27 @@ using System.Threading;
 
 
     class Program
-
     {
-
         static void Main(string[] args)
-
         {
-
             TcpListener Listener = null;
-
             TcpClient client = null;
 
-
-
             int PORT = 10000;
-
-
 
             Console.WriteLine("서버소켓");
 
             try
-
             {
 
                 Listener = new TcpListener(PORT);
-
                 Listener.Start(); // Listener 동작 시작
 
-
-
                 while (true)
-
                 {
 
                     client = Listener.AcceptTcpClient();
-
                     Receiver r = new Receiver();
-
                     r.startClient(client);
 
 
