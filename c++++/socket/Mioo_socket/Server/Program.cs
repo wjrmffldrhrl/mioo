@@ -68,7 +68,6 @@ namespace Sock_console_server
             string GetMessage = string.Empty;
 
             try
-
             {
                 Console.WriteLine("start connect");
                 while (client.Connected == true) //클라이언트 메시지받기
