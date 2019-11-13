@@ -23,9 +23,6 @@ using System.Threading;
 
 
 
-namespace Sock_console_server
-
-{
 
     class Receiver
 
@@ -181,5 +178,3 @@ namespace Sock_console_server
         }
 
     }
-
-}
