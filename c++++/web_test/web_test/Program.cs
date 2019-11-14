@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net;
+using System.Net.Json.dll;
 using System.IO;
 
 namespace web_test
@@ -14,11 +15,12 @@ namespace web_test
         {
             string url = "http://kyu9341.pythonanywhere.com/uleung/raspberry/";  //테스트 사이트
             string responseText = string.Empty;
-
+             
             while (true){
 
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
-                request.Method = "GET";
+                request.Credentials = CredentialCache.DefaultCredentials;
+                request.Method = "POST";
                 request.Timeout = 30 * 1000; // 30초
                 request.Headers.Add("Authorization", "BASIC SGVsbG8="); // 헤더 추가 방법
 

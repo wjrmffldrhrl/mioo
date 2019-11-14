@@ -1,0 +1,6 @@
+D:\han\mioo\c++++\socket\Mioo_socket\Server\bin\Debug\Server.exe.config
+D:\han\mioo\c++++\socket\Mioo_socket\Server\bin\Debug\Server.exe
+D:\han\mioo\c++++\socket\Mioo_socket\Server\bin\Debug\Server.pdb
+D:\han\mioo\c++++\socket\Mioo_socket\Server\obj\Debug\Server.csprojAssemblyReference.cache
+D:\han\mioo\c++++\socket\Mioo_socket\Server\obj\Debug\Server.exe
+D:\han\mioo\c++++\socket\Mioo_socket\Server\obj\Debug\Server.pdb
