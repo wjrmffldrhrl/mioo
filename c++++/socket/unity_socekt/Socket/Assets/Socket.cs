@@ -28,14 +28,25 @@ public class Socket : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+    }
+
+    void OnApplicationQuit()
+    {
+        try
         {
-            SendMessage();
+            Debug.Log("quit app\n");
         }
+        catch(SocketException ee) { }
+        catch(NullReferenceException ee) { }
+        finally
+        {
+            connectedTcpClient.Close();
+        }
+
     }
 
     /// Runs in background TcpServerThread; Handles incomming TcpClient requests
- 
+
     private void ListenForIncommingRequests()
     {
         try
