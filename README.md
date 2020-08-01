@@ -15,6 +15,10 @@
 - 기회비용 절약
 
 # 구상도
+![구상도](https://github.com/wjrmffldrhrl/mioo/blob/master/%EA%B5%AC%EC%83%81%EB%8F%84.png)
 
 # 예상 화면
 
+![ui](https://github.com/wjrmffldrhrl/mioo/blob/master/ui.png)  
+
+![crawling](https://github.com/wjrmffldrhrl/mioo/blob/master/%ED%81%AC%EB%A1%A4%EB%A7%81.png)
