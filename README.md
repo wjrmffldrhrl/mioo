@@ -22,3 +22,10 @@
 ![ui](https://github.com/wjrmffldrhrl/mioo/blob/master/ui.png)  
 
 ![crawling](https://github.com/wjrmffldrhrl/mioo/blob/master/%ED%81%AC%EB%A1%A4%EB%A7%81.png)
+
+
+# 적용 기술
+- Android : Java
+- Web Crawling : Python
+- Web Server : Python
+- Unity : C#
